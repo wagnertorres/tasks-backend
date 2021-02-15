@@ -1,0 +1,39 @@
+08-Feb-2021 09:42:30.544 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Feb-2021 09:42:30.544 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Feb-2021 09:42:30.546 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4c7ade66')
+08-Feb-2021 09:45:40.450 INFO [http-nio-8001-exec-9] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 09:45:44.537 INFO [http-nio-8001-exec-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 09:56:07.452 INFO [http-nio-8001-exec-6] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 09:56:10.562 INFO [http-nio-8001-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 10:01:17.263 INFO [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 10:01:20.221 INFO [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 10:01:38.759 INFO [http-nio-8001-exec-17] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 10:01:41.597 INFO [http-nio-8001-exec-17] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 10:02:21.049 INFO [http-nio-8001-exec-18] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 10:02:23.647 INFO [http-nio-8001-exec-18] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 10:02:38.028 INFO [http-nio-8001-exec-20] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 10:02:40.755 INFO [http-nio-8001-exec-20] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 10:06:19.372 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Feb-2021 10:06:19.372 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Feb-2021 10:11:27.968 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 10:11:31.740 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 10:11:38.199 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Feb-2021 10:11:38.200 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Feb-2021 10:11:38.201 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@87a5ca1')
+08-Feb-2021 10:11:59.987 INFO [http-nio-8001-exec-6] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 10:12:03.382 INFO [http-nio-8001-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 10:14:22.837 INFO [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 10:14:26.407 INFO [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 10:14:57.413 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Feb-2021 10:14:57.413 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Feb-2021 11:22:38.242 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 11:22:42.655 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 11:22:48.917 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Feb-2021 11:22:48.917 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Feb-2021 11:22:48.918 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2b374b4a')
+08-Feb-2021 11:23:41.184 INFO [http-nio-8001-exec-8] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 11:23:44.325 INFO [http-nio-8001-exec-8] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 11:23:55.551 INFO [http-nio-8001-exec-10] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+08-Feb-2021 11:23:58.699 INFO [http-nio-8001-exec-10] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Feb-2021 11:29:58.026 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Feb-2021 11:29:58.026 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
