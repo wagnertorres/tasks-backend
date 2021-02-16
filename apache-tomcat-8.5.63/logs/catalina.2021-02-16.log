@@ -1,0 +1,51 @@
+16-Feb-2021 15:40:45.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.63
+16-Feb-2021 15:40:45.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 29 2021 11:21:49 UTC
+16-Feb-2021 15:40:45.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.63.0
+16-Feb-2021 15:40:45.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+16-Feb-2021 15:40:45.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.7
+16-Feb-2021 15:40:45.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+16-Feb-2021 15:40:45.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/mactorres/.sdkman/candidates/java/11.0.2-open
+16-Feb-2021 15:40:45.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9
+16-Feb-2021 15:40:45.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Feb-2021 15:40:45.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63
+16-Feb-2021 15:40:45.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63
+16-Feb-2021 15:40:45.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2021 15:40:45.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2021 15:40:45.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2021 15:40:45.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2021 15:40:45.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2021 15:40:45.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/conf/logging.properties
+16-Feb-2021 15:40:45.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2021 15:40:45.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63
+16-Feb-2021 15:40:45.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/temp
+16-Feb-2021 15:40:45.089 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/mactorres/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+16-Feb-2021 15:40:45.265 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+16-Feb-2021 15:40:45.404 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Feb-2021 15:40:45.488 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2196 ms
+16-Feb-2021 15:40:45.761 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2021 15:40:45.761 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.63
+16-Feb-2021 15:40:45.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend.war]
+16-Feb-2021 15:40:54.272 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2021 15:41:11.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend.war] has finished in [25,635] ms
+16-Feb-2021 15:41:11.439 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/docs]
+16-Feb-2021 15:41:11.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/docs] has finished in [118] ms
+16-Feb-2021 15:41:11.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/manager]
+16-Feb-2021 15:41:11.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/manager] has finished in [242] ms
+16-Feb-2021 15:41:11.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/examples]
+16-Feb-2021 15:41:12.654 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/examples] has finished in [855] ms
+16-Feb-2021 15:41:12.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/ROOT]
+16-Feb-2021 15:41:12.719 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/ROOT] has finished in [63] ms
+16-Feb-2021 15:41:12.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/host-manager]
+16-Feb-2021 15:41:12.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/host-manager] has finished in [71] ms
+16-Feb-2021 15:41:12.798 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+16-Feb-2021 15:41:12.813 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 27324 ms
+16-Feb-2021 15:49:45.543 WARNING [http-nio-8001-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Feb-2021 15:49:46.171 INFO [http-nio-8001-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+16-Feb-2021 15:49:46.750 INFO [http-nio-8001-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend.war]
+16-Feb-2021 15:49:51.929 INFO [http-nio-8001-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2021 15:50:05.777 INFO [http-nio-8001-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend.war] has finished in [19,028] ms

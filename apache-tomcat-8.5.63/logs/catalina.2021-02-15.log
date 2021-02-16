@@ -3131,3 +3131,9 @@
 15-Feb-2021 14:19:35.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/host-manager] has finished in [35] ms
 15-Feb-2021 14:19:35.270 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
 15-Feb-2021 14:19:35.283 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 40522 ms
+15-Feb-2021 16:06:10.406 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Feb-2021 16:06:10.427 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+15-Feb-2021 16:06:10.451 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Feb-2021 16:06:10.723 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Feb-2021 16:06:10.787 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+15-Feb-2021 16:06:10.794 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]

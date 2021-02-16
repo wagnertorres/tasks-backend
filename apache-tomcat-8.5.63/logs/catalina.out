@@ -21964,3 +21964,121 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 15-Feb-2021 14:19:35.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/host-manager] has finished in [35] ms
 15-Feb-2021 14:19:35.270 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
 15-Feb-2021 14:19:35.283 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 40522 ms
+15-Feb-2021 16:06:10.406 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Feb-2021 16:06:10.427 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+15-Feb-2021 16:06:10.451 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+2021-02-15 16:06:10.602  INFO 3934 --- [ost-startStop-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-15 16:06:10.608  INFO 3934 --- [ost-startStop-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-15 16:06:10.694  INFO 3934 --- [ost-startStop-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-15 16:06:10.704  INFO 3934 --- [ost-startStop-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15-Feb-2021 16:06:10.723 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Feb-2021 16:06:10.787 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+15-Feb-2021 16:06:10.794 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2021 15:40:45.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.63
+16-Feb-2021 15:40:45.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 29 2021 11:21:49 UTC
+16-Feb-2021 15:40:45.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.63.0
+16-Feb-2021 15:40:45.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+16-Feb-2021 15:40:45.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.7
+16-Feb-2021 15:40:45.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+16-Feb-2021 15:40:45.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/mactorres/.sdkman/candidates/java/11.0.2-open
+16-Feb-2021 15:40:45.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9
+16-Feb-2021 15:40:45.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Feb-2021 15:40:45.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63
+16-Feb-2021 15:40:45.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63
+16-Feb-2021 15:40:45.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2021 15:40:45.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2021 15:40:45.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2021 15:40:45.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2021 15:40:45.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2021 15:40:45.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/conf/logging.properties
+16-Feb-2021 15:40:45.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2021 15:40:45.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63
+16-Feb-2021 15:40:45.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63
+16-Feb-2021 15:40:45.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/temp
+16-Feb-2021 15:40:45.089 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/mactorres/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+16-Feb-2021 15:40:45.265 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+16-Feb-2021 15:40:45.404 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Feb-2021 15:40:45.488 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2196 ms
+16-Feb-2021 15:40:45.761 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2021 15:40:45.761 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.63
+16-Feb-2021 15:40:45.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend.war]
+16-Feb-2021 15:40:54.272 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-16 15:40:57.703  INFO 959 --- [ost-startStop-1] b.c.w.t.TaskBackendApplication           : Starting TaskBackendApplication v0.0.1-SNAPSHOT on Wagners-MBP with PID 959 (/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend/WEB-INF/classes started by mactorres in /Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/bin)
+2021-02-16 15:40:57.719  INFO 959 --- [ost-startStop-1] b.c.w.t.TaskBackendApplication           : No active profile set, falling back to default profiles: default
+2021-02-16 15:41:00.385  INFO 959 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-16 15:41:00.643  INFO 959 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 215ms. Found 1 JPA repository interfaces.
+2021-02-16 15:41:02.055  INFO 959 --- [ost-startStop-1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-16 15:41:02.207  INFO 959 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4365 ms
+2021-02-16 15:41:03.900  INFO 959 --- [ost-startStop-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-16 15:41:04.452  INFO 959 --- [ost-startStop-1] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2021-02-16 15:41:05.070  INFO 959 --- [ost-startStop-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-16 15:41:05.581  INFO 959 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-16 15:41:05.867  INFO 959 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-16 15:41:05.925  INFO 959 --- [ost-startStop-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-16 15:41:08.769  INFO 959 --- [ost-startStop-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-16 15:41:08.794  INFO 959 --- [ost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-16 15:41:10.058  WARN 959 --- [ost-startStop-1] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-16 15:41:10.557  INFO 959 --- [ost-startStop-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 15:41:11.286  INFO 959 --- [ost-startStop-1] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 16.109 seconds (JVM running for 28.609)
+16-Feb-2021 15:41:11.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend.war] has finished in [25,635] ms
+16-Feb-2021 15:41:11.439 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/docs]
+16-Feb-2021 15:41:11.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/docs] has finished in [118] ms
+16-Feb-2021 15:41:11.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/manager]
+16-Feb-2021 15:41:11.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/manager] has finished in [242] ms
+16-Feb-2021 15:41:11.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/examples]
+16-Feb-2021 15:41:12.654 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/examples] has finished in [855] ms
+16-Feb-2021 15:41:12.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/ROOT]
+16-Feb-2021 15:41:12.719 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/ROOT] has finished in [63] ms
+16-Feb-2021 15:41:12.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/host-manager]
+16-Feb-2021 15:41:12.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/host-manager] has finished in [71] ms
+16-Feb-2021 15:41:12.798 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+16-Feb-2021 15:41:12.813 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 27324 ms
+2021-02-16 15:49:45.391  INFO 959 --- [nio-8001-exec-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-16 15:49:45.398  INFO 959 --- [nio-8001-exec-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-16 15:49:45.496  INFO 959 --- [nio-8001-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-16 15:49:45.512  INFO 959 --- [nio-8001-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+16-Feb-2021 15:49:45.543 WARNING [http-nio-8001-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Feb-2021 15:49:46.171 INFO [http-nio-8001-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+16-Feb-2021 15:49:46.750 INFO [http-nio-8001-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend.war]
+16-Feb-2021 15:49:51.929 INFO [http-nio-8001-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-16 15:49:54.134  INFO 959 --- [nio-8001-exec-2] b.c.w.t.TaskBackendApplication           : Starting TaskBackendApplication v0.0.1-SNAPSHOT on Wagners-MBP with PID 959 (/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend/WEB-INF/classes started by mactorres in /Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/bin)
+2021-02-16 15:49:54.146  INFO 959 --- [nio-8001-exec-2] b.c.w.t.TaskBackendApplication           : No active profile set, falling back to default profiles: default
+2021-02-16 15:49:56.534  INFO 959 --- [nio-8001-exec-2] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-16 15:49:56.747  INFO 959 --- [nio-8001-exec-2] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 191ms. Found 1 JPA repository interfaces.
+2021-02-16 15:49:57.920  INFO 959 --- [nio-8001-exec-2] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-16 15:49:58.007  INFO 959 --- [nio-8001-exec-2] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3702 ms
+2021-02-16 15:49:59.342  INFO 959 --- [nio-8001-exec-2] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-16 15:49:59.607  INFO 959 --- [nio-8001-exec-2] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2021-02-16 15:50:00.229  INFO 959 --- [nio-8001-exec-2] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-16 15:50:00.564  INFO 959 --- [nio-8001-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-02-16 15:50:00.933  INFO 959 --- [nio-8001-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-02-16 15:50:01.147  INFO 959 --- [nio-8001-exec-2] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-16 15:50:03.991  INFO 959 --- [nio-8001-exec-2] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-16 15:50:04.008  INFO 959 --- [nio-8001-exec-2] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-16 15:50:04.923  WARN 959 --- [nio-8001-exec-2] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-16 15:50:05.338  INFO 959 --- [nio-8001-exec-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 15:50:05.764  INFO 959 --- [nio-8001-exec-2] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 13.251 seconds (JVM running for 563.088)
+16-Feb-2021 15:50:05.777 INFO [http-nio-8001-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/mactorres/kdi-dev/intelliJ/tasks-backend/apache-tomcat-8.5.63/webapps/tasks-backend.war] has finished in [19,028] ms

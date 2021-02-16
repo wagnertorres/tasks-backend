@@ -27,3 +27,6 @@
 127.0.0.1 - admin [15/Feb/2021:14:19:38 -0300] "GET /manager/html HTTP/1.1" 200 18077
 127.0.0.1 - - [15/Feb/2021:14:19:38 -0300] "GET /manager/css/manager.css HTTP/1.1" 200 2946
 127.0.0.1 - - [15/Feb/2021:14:19:38 -0300] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20672
+127.0.0.1 - admin [15/Feb/2021:15:54:51 -0300] "GET /manager/html HTTP/1.1" 200 18077
+127.0.0.1 - - [15/Feb/2021:15:54:51 -0300] "GET /manager/images/tomcat.svg HTTP/1.1" 304 -
+127.0.0.1 - - [15/Feb/2021:15:54:51 -0300] "GET /manager/images/asf-logo.svg HTTP/1.1" 304 -
