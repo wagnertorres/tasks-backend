@@ -39,8 +39,43 @@ services:
       - postgresql:/var/lib/postgresql
       - postgresql_data:/var/lib/postgresql/data
 
+  selenium-hub:
+    image: selenium/hub:3.141.59-zinc
+    container_name: selenium-hub
+    networks:
+      - seleniumGrid
+    ports:
+      - "4444:4444"
+
+  firefox:
+    image: selenium/node-firefox-debug:3.141.59-zinc
+    container_name: Firefox-1
+    networks:
+      - seleniumGrid
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+      - NODE_MAX_INSTANCES=2
+      - NODE_MAX_SESSIONS=2
+
+  firefox2:
+    image: selenium/node-firefox-debug:3.141.59-zinc
+    container_name: Firefox-2
+    networks:
+      - seleniumGrid
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+      - NODE_MAX_INSTANCES=2
+      - NODE_MAX_SESSIONS=2
+
 networks:
   sonarnet:
+  seleniumGrid:
 
 volumes:
   sonarqube_conf:

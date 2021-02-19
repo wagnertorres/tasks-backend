@@ -3,6 +3,22 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+apache-tomcat-8.5.63/logs/catalina.2021-02-17.log
+apache-tomcat-8.5.63/logs/catalina.2021-02-18.log
+apache-tomcat-8.5.63/logs/catalina.2021-02-19.log
+apache-tomcat-8.5.63/logs/host-manager.2021-02-17.log
+apache-tomcat-8.5.63/logs/host-manager.2021-02-18.log
+apache-tomcat-8.5.63/logs/host-manager.2021-02-19.log
+apache-tomcat-8.5.63/logs/localhost.2021-02-17.log
+apache-tomcat-8.5.63/logs/localhost.2021-02-18.log
+apache-tomcat-8.5.63/logs/localhost.2021-02-19.log
+apache-tomcat-8.5.63/logs/localhost_access_log.2021-02-17.txt
+apache-tomcat-8.5.63/logs/localhost_access_log.2021-02-18.txt
+apache-tomcat-8.5.63/logs/localhost_access_log.2021-02-19.txt
+apache-tomcat-8.5.63/logs/manager.2021-02-17.log
+apache-tomcat-8.5.63/logs/manager.2021-02-18.log
+apache-tomcat-8.5.63/logs/manager.2021-02-19.log
+
 
 ### STS ###
 .apt_generated
