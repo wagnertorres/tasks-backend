@@ -74,13 +74,13 @@ services:
       - NODE_MAX_SESSIONS=2
 
 networks:
-#  sonarnet:
+  sonarnet:
   seleniumGrid:
 
 volumes:
-#  sonarqube_conf:
-#  sonarqube_data:
-#  sonarqube_extensions:
-#  sonarqube_bundled-plugins:
+  sonarqube_conf:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_bundled-plugins:
   postgresql:
   postgresql_data:
